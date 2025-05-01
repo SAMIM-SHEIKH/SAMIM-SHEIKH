@@ -1,15 +1,15 @@
 KJHH  VVC  NBHG- 👋 Hi, I’m @SAMIM-SHEIKH
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on ..rrezfzc fvrft  htydfdqw .
 - 📫 How to reach me ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
 <!---<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
+<head> sedgfrg aaf555yhb xdsff 
+  <meta charset="U drtrt TF-8" />tytregm v sdggklkiyd55dsd fg
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>New Online Casinos 2025</title>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -18,7 +18,7 @@ KJHH  VVC  NBHG- 👋 Hi, I’m @SAMIM-SHEIKH
 
   <header class="bg-indigo-600 text-white p-6">
     <div class="container mx-auto">
-      <h1 class="text-3xl font-bold">Top New Online Casinos - 2025</h1>
+      <h1 class="text-3xl font-bold">Top Ne Online Casinos - 2025</h1>
       <p class="text-sm mt-1">Trusted reviews and expert ratings of the newest online casinos.</p>
     </div>
   </header>
