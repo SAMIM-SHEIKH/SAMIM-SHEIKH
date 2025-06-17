@@ -1,68 +1,61 @@
-KJHH  VVC  NBHG- 👋 Hi, I’m @SAMIM-SHEIKH
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ..rrezfzc fvrft  htydfdqw .
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Re-create the HTML, CSS, JS website folder structure after code execution state reset
 
-<!---<!DOCTYPE html>6thyv vgjg
-<html lang="en">
-<head> sedgfrg aaf555yhb xdsff 
-  <meta charset="U drtrt TF-8" />tytregm v sdggklkiyd55dsd fg
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>New Online Casinos 2025</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+from zipfile import ZipFile
+import os
+
+# Set up the directory structure
+base_dir = "/mnt/data/my-site"
+os.makedirs(base_dir, exist_ok=True)
+
+# HTML content
+html_content = """<!DOCTYPE html>
+<html>
+<head>
+  <title>আমার সাইট</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 font-sans text-gray-800">
-
-  <header class="bg-indigo-600 text-white p-6">
-    <div class="container mx-auto">
-      <h1 class="text-3xl font-bold">Top Ne Online Casinos - 2025</h1>
-      <p class="text-sm mt-1">Trusted reviews and expert ratings of the newest online casinos.</p>
-    </div>
-  </header>
-
-  <main class="container mx-auto p-6">
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4">Top 5 New Casinos</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        
-        <!-- Example casino card -->
-        <div class="bg-white rounded-xl shadow p-4">
-          <h3 class="text-xl font-bold mb-2">Royal Spin Casino</h3>
-          <p>Launched: Jan 2025</p>
-          <p>Bonus: 100 Free Spins + ৳10,000 Match Bonus</p>
-          <a href="#" class="text-indigo-600 mt-2 inline-block">Read Review</a>
-        </div>
-
-        <!-- Add more casino cards here -->
-        <div class="bg-white rounded-xl shadow p-4">
-          <h3 class="text-xl font-bold mb-2">Lucky Tiger Casino</h3>
-          <p>Launched: March 2025</p>
-          <p>Bonus: ৳5,000 Welcome + 50 Free Spins</p>
-          <a href="#" class="text-indigo-600 mt-2 inline-block">Read Review</a>
-        </div>
-
-      </div>
-    </section>
-
-    <section>
-      <h2 class="text-2xl font-semibold mb-4">Why Trust Our Reviews?</h2>
-      <ul class="list-disc ml-6 space-y-2">
-        <li>Expert analysis and testing</li>
-        <li>Local payment methods and currency support</li>
-        <li>No-deposit and free spin offers reviewed</li>
-        <li>Bangla language and support for Bangladeshi players</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer class="bg-indigo-700 text-white p-4 text-center mt-10">
-    <p>&copy; 2025 BetoBaba Clone. All rights reserved.</p>
-  </footer>
-
+<body>
+  <h1>স্বাগতম!</h1>
+  <p id="text">এটি একটি ডেমো ওয়েবসাইট।</p>
+  <button onclick="changeText()">লেখা বদলাও</button>
+  <script src="script.js"></script>
 </body>
-</html>
+</html>"""
 
---->
+# CSS content
+css_content = """body {
+  font-family: Arial;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+h1 {
+  color: green;
+}"""
+
+# JS content
+js_content = """function changeText() {
+  document.getElementById("text").innerText = "তুমি বাটনে ক্লিক করেছো!";
+}"""
+
+# File paths
+html_path = os.path.join(base_dir, "index.html")
+css_path = os.path.join(base_dir, "style.css")
+js_path = os.path.join(base_dir, "script.js")
+
+# Write the files
+with open(html_path, "w", encoding="utf-8") as f:
+    f.write(html_content)
+with open(css_path, "w", encoding="utf-8") as f:
+    f.write(css_content)
+with open(js_path, "w", encoding="utf-8") as f:
+    f.write(js_content)
+
+# Create the zip file
+zip_path = "/mnt/data/my-site.zip"
+with ZipFile(zip_path, 'w') as zipf:
+    zipf.write(html_path, arcname="index.html")
+    zipf.write(css_path, arcname="style.css")
+    zipf.write(js_path, arcname="script.js")
+
+zip_path
+
